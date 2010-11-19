@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3334
+
+This color scheme is loosely based off of desert.vim (vimscript #105) mixed with some of slate.vim. I took the darker background from slate, replaced a lot of the desert colors with a earthy/brown color scheme, changed the window borders to be black, and folders are a light orange instead of the default blue. 
+
+Overall it's a coherent, earthy color scheme with minimal visual distraction. I have used it for coding in C, PHP, C#, HTML, and Lisp so far.
+
+Note that I've only really used it with gvim, it may look like crap in 256 colors. I'm new to vim in general, so any suggestions on how to port this to 256 would be greatly appreciated.
+
+The name "void" has no special meaning (it came from the void).
