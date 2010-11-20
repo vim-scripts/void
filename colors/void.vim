@@ -1,9 +1,9 @@
 " Vim color file
 " Maintainer:	Andrew Lyon <orthecreedence@gmail.com>
-" Last Change:	$Date: 2010-11-19 10:57:30PST $
-" Version:	1
+" Last Change:	$Date: 2010-11-20 12:27:30PST $
+" Version:	1.1
 
-" Note that this color scheme is based off of desert.vim (Hans Fugal
+" Note that this color scheme is loosely based off of desert.vim (Hans Fugal
 " <hans@fugal.net>) mixed with some of slate.vim (Ralph Amissah
 " <ralph@amissah.com>) but with much of my own modification.
 
@@ -55,7 +55,7 @@ hi WarningMsg	guifg=salmon
 hi Comment	guifg=grey50
 hi Constant	guifg=#e09085
 hi Identifier	guifg=#f5f5f5
-hi Statement	guifg=khaki
+hi Statement	guifg=darkkhaki		" #bbccee
 hi PreProc	guifg=#c8e0b0
 hi Type		guifg=darkkhaki
 hi Special	guifg=#bbccee cterm=bold term=bold
