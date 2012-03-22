@@ -1,7 +1,7 @@
 " Vim color file
 " Maintainer:	Andrew Lyon <orthecreedence@gmail.com>
-" Last Change:	$Date: 2010-11-20 12:27:30PST $
-" Version:	1.1
+" Last Change:	2012-03-21 06:01:00 PST
+" Version:	2.0
 
 " Note that this color scheme is loosely based off of desert.vim (Hans Fugal
 " <hans@fugal.net>) mixed with some of slate.vim (Ralph Amissah
@@ -18,7 +18,7 @@ if version > 580
 endif
 let g:colors_name="void"
 
-hi Normal	guifg=#f5f5f5 guibg=grey15
+hi Normal	guifg=#e0e0e0 guibg=grey15
 
 " highlight groups
 hi Cursor	guibg=khaki guifg=slategrey
@@ -54,10 +54,11 @@ hi WarningMsg	guifg=salmon
 " syntax highlighting groups
 hi Comment	guifg=grey50
 hi Constant	guifg=#e09085
-hi Identifier	guifg=#f5f5f5
-hi Statement	guifg=darkkhaki		" #bbccee
+hi Identifier	guifg=#d0d0b0
+hi Statement	guifg=#ccaa88 gui=bold cterm=bold term=bold
+"hi Statement	guifg=darkkhaki
 hi PreProc	guifg=#c8e0b0
-hi Type		guifg=darkkhaki
+hi Type		guifg=#99cccc term=NONE cterm=NONE gui=NONE
 hi Special	guifg=#bbccee cterm=bold term=bold
 hi Operator guifg=navajowhite cterm=NONE
 "hi Underlined
